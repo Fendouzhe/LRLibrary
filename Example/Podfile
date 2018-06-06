@@ -1,11 +1,8 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
 
 target 'LRLibrary_Example' do
   pod 'LRLibrary', :path => '../'
 
-  target 'LRLibrary_Tests' do
-    inherit! :search_paths
 
-    
-  end
 end
