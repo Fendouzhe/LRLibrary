@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LRLibrary_Example' do
+  pod 'LRLibrary', :path => '../'
+
+  target 'LRLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
